@@ -1,202 +1,221 @@
-    body {
-        background-color: #d6d6d6;
-        font-family: "helvetica";
-        font-weight: normal;
-        margin: auto;
-    }
-    
-    h1 {
-        font-family: "Helvetica";
-        font-weight: normal;
-        font-size: 16px;
-        border-bottom: solid 1px rgb(0, 0, 0);
-        margin: 5px;
-        padding-left: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    .header-title {
-        font-family: "Gilbert";
-        font-size: 150px;
-        text-align: left;
-        line-height: 1.5em;
-        vertical-align: top;
-        margin: auto;
-        padding: 30px;
-        width: 80%;
-    }
-    
-    .sun_title {
-        padding: 2px;
-        border-bottom: solid 5px rgb(0, 0, 0);
-    }
-    
-    .figs_title {
-        border-bottom: solid 5px rgb(0, 0, 0);
-    }
-    
-    .fish_title {
-        border-bottom: solid 5px rgb(0, 0, 0);
-    }
-    
-    a {
-        text-decoration: none;
-        color: black;
-        transition: all 500ms;
-    }
-    
-    a:hover {
-        color: #a6dfb7;
-        letter-spacing: 0.15em;
-    }
-    
-    h2 {
-        font-weight: bold;
-        font-size: 120px;
-        padding-left: 80px;
-        display: block;
-        width: 20%;
-        border-bottom: solid 5px black;
-    }
-    
-    .flexbox-1,
-    .flexbox-2,
-    .flexbox-3 {
-        display: flex;
-        width: 100%;
-        margin: auto;
-        padding: 50px;
-        flex-wrap: wrap;
-    }
-    
-    .article-sun-1,
-    .article-sun-2,
-    .article-sun-3 {
-        width: 60%;
-        text-align: left;
-        padding: 30px;
-        padding-top: 0;
-        line-height: 1.9;
-        font-weight: normal;
-        font-size: 24px;
-    }
-    
-    .big {
-        font-weight: normal;
-        font-size: 50px;
-        line-height: 1.2em;
-        border-top: solid 1px rgb(0, 0, 0);
-        border-bottom: solid 1px rgb(0, 0, 0);
-        padding: 60px;
-        font-weight: lighter;
-    }
-    
-    .facts-sun1,
-    .facts-sun2,
-    .facts-sun3 {
-        width: 15%;
-        text-align: left;
-        padding: 30px;
-        padding-top: 0;
-        padding-left: 10px;
-        border-left: solid 1px rgb(0, 0, 0);
-        line-height: 1.6;
-        font-size: 16px;
-    }
-    
-    ul {
-        list-style: none;
-    }
-    
-    .Michelangelo img {
-        width: 100%;
-    }
-    
-    .monet {
-        position: relative;
-        margin: 0 auto;
-        width: 100%;
-    }
-    
-    .monetimg {
-        opacity: 30%;
-    }
-    
-    .monetimg:hover {
-        opacity: 100%;
-    }
-    
-    .monet-text {
-        padding: 15px;
-        background-color: white;
-        border: solid 2px black;
-        font-size: 14px;
-        width: 30%;
-        position: absolute;
-        text-align: left;
-        bottom: -25px;
-        right: 50px;
-    }
-    
-    .Michelangelo {
-        position: relative;
-        margin: 0 auto;
-        width: 100%;
-    }
-    
-    .Michelangelo-text {
-        padding: 15px;
-        background-color: white;
-        border: solid 2px black;
-        font-size: 14px;
-        width: 30%;
-        position: absolute;
-        text-align: left;
-        bottom: -25px;
-        right: 50px;
-    }
-    
-    .michelangeloimg {
-        opacity: 30%;
-    }
-    
-    .michelangeloimg:hover {
-        opacity: 100%;
-    }
-    
-    .marquee {
-        position: relative;
-        overflow: hidden;
-        --offset: 25px;
-        --move-initial: calc( -40% + var(--offset));
-        --move-final: calc( -20% + var(--offset));
-    }
-    
-    .marquee-inner {
-        width: fit-content;
-        display: flex;
-        position: relative;
+body {
+    background-color: #d6d6d6;
+    font-family: "helvetica";
+    font-weight: normal;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Helvetica";
+    font-weight: normal;
+    font-size: 16px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-title {
+    font-family: "Gilbert";
+    font-size: 150px;
+    text-align: left;
+    line-height: 1.5em;
+    vertical-align: top;
+    margin: auto;
+    padding: 30px;
+    max-width: 80%;
+    min-width: 40%;
+}
+
+.sun_title {
+    padding: 2px;
+    border-bottom: solid 5px rgb(0, 0, 0);
+}
+
+.figs_title {
+    border-bottom: solid 5px rgb(0, 0, 0);
+}
+
+.fish_title {
+    border-bottom: solid 5px rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all 500ms;
+}
+
+a:hover {
+    color: #a6dfb7;
+    letter-spacing: 0.10em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 120px;
+    padding-left: 80px;
+    display: block;
+    width: 20%;
+    border-bottom: solid 5px black;
+}
+
+.flexbox-1,
+.flexbox-2,
+.flexbox-3 {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.article-sun-1,
+.article-sun-2,
+.article-sun-3 {
+    max-width: 60%;
+    min-width: 30%;
+    text-align: left;
+    padding: 30px;
+    padding-top: 0;
+    line-height: 1.9;
+    font-weight: normal;
+    font-size: 24px;
+    border-right: solid 1px rgb(0, 0, 0);
+}
+
+.big {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 1.5em;
+    border-top: solid 1px rgb(0, 0, 0);
+    border-bottom: solid 1px rgb(0, 0, 0);
+    padding: 60px;
+    font-weight: bold;
+}
+
+.facts-sun1,
+.facts-sun2,
+.facts-sun3 {
+    max-width: 15%;
+    text-align: left;
+    padding: 30px;
+    padding-top: 0;
+    padding-left: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+    position: sticky;
+    align-self: flex-start;
+    top: 20px;
+    font-weight: lighter;
+}
+
+ul {
+    list-style: none;
+}
+
+.Michelangelo img {
+    width: 100%;
+    width: 100%;
+    transition: opacity 500ms;
+}
+
+.monet {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.monetimg {
+    opacity: 30%;
+    max-width: 100%;
+    transition: opacity 500ms;
+}
+
+.monetimg:hover {
+    opacity: 100%;
+}
+
+.monet-text {
+    padding: 15px;
+    background-color: white;
+    outline: 1px solid #a6dfb7;
+    outline-offset: -5px;
+    font-size: 14px;
+    width: fit-content;
+    position: absolute;
+    text-align: left;
+    bottom: -25px;
+    right: 50px;
+}
+
+.Michelangelo {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Michelangelo-text {
+    padding: 15px;
+    background-color: white;
+    outline: 1px solid #a6dfb7;
+    outline-offset: -5px;
+    font-size: 14px;
+    width: fit-content;
+    position: absolute;
+    text-align: left;
+    bottom: -25px;
+    right: 50px;
+}
+
+.michelangeloimg {
+    opacity: 30%;
+    width: 100%;
+    transition: opacity 500ms;
+}
+
+.michelangeloimg:hover {
+    opacity: 100%;
+}
+
+.marquee {
+    position: relative;
+    overflow: hidden;
+    --offset: 25px;
+    --move-initial: calc( -40% + var(--offset));
+    --move-final: calc( -20% + var(--offset));
+}
+
+.marquee-inner {
+    width: fit-content;
+    display: flex;
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee 5s linear infinite;
+}
+
+.marquee span {
+    font-family: "gilbert";
+    font-size: 100px;
+    font-weight: bold;
+    padding: 0 100px;
+    color: #a6dfb7;
+}
+
+.marquee:hover .marquee-inner {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
         transform: translate3d(var(--move-initial), 0, 0);
-        animation: marquee 5s linear infinite;
     }
-    
-    .marquee span {
-        font-family: "helvetica";
-        font-size: 30px;
-        font-weight: bold;
-        padding: 0 100px;
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
     }
-    
-    .marquee:hover .marquee-inner {
-        animation-play-state: paused;
-    }
-    
-    @keyframes marquee {
-        0% {
-            transform: translate3d(var(--move-initial), 0, 0);
-        }
-        100% {
-            transform: translate3d(var(--move-final), 0, 0);
-        }
-    }
+}
+
+footer {
+    padding-bottom: 80px;
+}
