@@ -4,6 +4,12 @@
     src: url("fonts/Gilbert-Bold\ Preview5.woff") format("woff2");
 }
 
+@font-face {
+    font-family: "Helvetica";
+    font-weight: 100;
+    src: url("fonts/Helvetica.woff") format("woff2");
+}
+
 body {
     background-color: #d6d6d6;
     font-family: "helvetica";
