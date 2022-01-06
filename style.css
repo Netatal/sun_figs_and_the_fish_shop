@@ -61,7 +61,7 @@ a {
 }
 
 a:hover {
-    color: #a6dfb7;
+    color: #9dffba;
     letter-spacing: 0.10em;
 }
 
@@ -92,7 +92,7 @@ h2 {
     text-align: left;
     padding: 30px;
     padding-top: 0;
-    line-height: 1.9;
+    line-height: 1.6;
     font-weight: normal;
     font-size: 24px;
     border-right: solid 1px rgb(0, 0, 0);
@@ -153,7 +153,7 @@ ul {
 .monet-text {
     padding: 15px;
     background-color: white;
-    outline: 1px solid #a6dfb7;
+    outline: 1px solid #9dffba;
     outline-offset: -5px;
     font-size: 14px;
     width: fit-content;
@@ -172,7 +172,7 @@ ul {
 .Michelangelo-text {
     padding: 15px;
     background-color: white;
-    outline: 1px solid #a6dfb7;
+    outline: 1px solid #9dffba;
     outline-offset: -5px;
     font-size: 14px;
     width: fit-content;
@@ -213,7 +213,7 @@ ul {
     font-size: 100px;
     font-weight: bold;
     padding: 0 100px;
-    color: #a6dfb7;
+    color: #9dffba;
 }
 
 .marquee:hover .marquee-inner {
