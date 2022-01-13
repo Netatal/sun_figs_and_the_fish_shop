@@ -10,6 +10,12 @@
     src: url("fonts/Helvetica.woff") format("woff2");
 }
 
+@font-face {
+    font-family: "MeaCulpa-Regular";
+    font-weight: 100;
+    src: url("fonts/MeaCulpa-Regular.woff2") format("woff2");
+}
+
 body {
     background-color: #d6d6d6;
     font-family: "helvetica";
@@ -38,7 +44,7 @@ h1 {
 }
 
 .header-title {
-    font-family: "Gilbert";
+    font-family: "gilbert";
     font-size: 150px;
     text-align: left;
     line-height: 1.5em;
@@ -79,7 +85,7 @@ h2 {
     padding-left: 80px;
     padding-top: 100px;
     display: block;
-    width: 20%;
+    width: 100%;
     border-bottom: solid 5px black;
 }
 
@@ -108,6 +114,7 @@ h2 {
 }
 
 .big {
+    text-transform: uppercase;
     font-weight: normal;
     font-size: 40px;
     line-height: 1.5em;
