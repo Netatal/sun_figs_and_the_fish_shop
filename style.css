@@ -30,6 +30,8 @@ body {
     background: #d6d6d6;
     z-index: 1000;
     margin: 0;
+    letter-spacing: 0.05em;
+    padding-top: 5px;
 }
 
 h1 {
@@ -44,28 +46,33 @@ h1 {
 }
 
 .header-title {
-    font-family: "gilbert";
-    font-size: 150px;
+    font-family: "helvetica";
+    font-weight: bolder;
+    font-size: 170px;
     text-align: left;
-    line-height: 1.5em;
+    line-height: 0.7;
     vertical-align: top;
     margin: auto;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     max-width: 80%;
     min-width: 40%;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .sun_title {
-    padding: 2px;
-    border-bottom: solid 5px rgb(0, 0, 0);
+    padding-top: 100px;
+    border-bottom: solid 2px rgb(0, 0, 0);
 }
 
 .figs_title {
-    border-bottom: solid 5px rgb(0, 0, 0);
+    padding-top: 100px;
+    border-bottom: solid 2px rgb(0, 0, 0);
 }
 
 .fish_title {
-    border-bottom: solid 5px rgb(0, 0, 0);
+    padding-top: 100px;
+    border-bottom: solid 2px rgb(0, 0, 0);
 }
 
 a {
@@ -75,18 +82,50 @@ a {
 }
 
 a:hover {
-    color: #9dffba;
-    letter-spacing: 0.10em;
+    color: #000000;
+    letter-spacing: 0.05em;
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 120px;
+.topbar:hover {
+    letter-spacing: 0.5em;
+}
+
+.suntitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 300px;
     padding-left: 80px;
     padding-top: 100px;
     display: block;
     width: 100%;
     border-bottom: solid 5px black;
+    margin: 0;
+}
+
+.fishshop_title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 200px;
+    padding-left: 80px;
+    padding-top: 100px;
+    display: block;
+    width: 100%;
+    border-bottom: solid 5px black;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.figstitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 300px;
+    padding-left: 80px;
+    padding-top: 100px;
+    display: block;
+    width: 100%;
+    border-bottom: solid 5px black;
+    margin: 0;
+    padding-bottom: 50px;
 }
 
 .flexbox-1,
@@ -114,14 +153,15 @@ h2 {
 }
 
 .big {
-    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    ;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 1.5em;
     border-top: solid 1px rgb(0, 0, 0);
     border-bottom: solid 1px rgb(0, 0, 0);
     padding: 60px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .facts-sun1,
@@ -177,6 +217,8 @@ ul {
     text-align: left;
     bottom: -25px;
     right: 50px;
+    text-transform: uppercase;
+    line-height: 1.5em;
 }
 
 .Michelangelo {
@@ -196,6 +238,8 @@ ul {
     text-align: left;
     bottom: -25px;
     right: 50px;
+    text-transform: uppercase;
+    line-height: 1.5em;
 }
 
 .michelangeloimg {
@@ -216,6 +260,10 @@ ul {
     --move-final: calc( -20% + var(--offset));
 }
 
+.marquee+.marquee {
+    padding-top: -1px;
+}
+
 .marquee-figs {
     position: relative;
     overflow: hidden;
@@ -233,13 +281,14 @@ ul {
 }
 
 .marquee span {
-    font-family: "gilbert";
+    font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 0 100px;
-    color: #9dffba;
-    border-top: 5px dashed #9dffba;
-    border-bottom: 5px dashed #9dffba;
+    color: #49ffa4;
+    border-top: 2px dashed #49ffa4;
+    border-bottom: 2px dashed #49ffa4;
+    white-space: nowrap;
 }
 
 .marquee:hover .marquee-inner {
