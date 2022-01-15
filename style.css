@@ -24,7 +24,22 @@ body {
     overflow-x: hidden;
 }
 
+.opening {
+    font-family: 'Cormorant Garamond', serif;
+    ;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.5em;
+    border-top: solid 1px rgb(0, 0, 0);
+    border-bottom: solid 1px rgb(0, 0, 0);
+    padding: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
 .topbar {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
     position: fixed;
     width: 100%;
     background: #d6d6d6;
@@ -48,19 +63,20 @@ h1 {
 .header-title {
     font-family: "helvetica";
     font-weight: bolder;
-    font-size: 170px;
-    text-align: left;
-    line-height: 0.7;
+    font-size: 150px;
+    text-align: center;
+    line-height: 1.2;
     vertical-align: top;
     margin: auto;
+    padding-top: 100px;
     padding-bottom: 200px;
     max-width: 80%;
     min-width: 40%;
     text-transform: uppercase;
-    white-space: nowrap;
 }
 
-.sun_title {
+
+/**.sun_title {
     padding-top: 100px;
     border-bottom: solid 2px rgb(0, 0, 0);
 }
@@ -74,10 +90,11 @@ h1 {
     padding-top: 100px;
     border-bottom: solid 2px rgb(0, 0, 0);
 }
+/**/
 
 a {
     text-decoration: none;
-    color: black;
+    color: #000000;
     transition: all 500ms;
 }
 
@@ -118,7 +135,7 @@ a:hover {
 .figstitle {
     font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
-    font-size: 300px;
+    font-size: 350px;
     padding-left: 80px;
     padding-top: 100px;
     display: block;
@@ -157,7 +174,7 @@ a:hover {
     ;
     font-weight: normal;
     font-size: 50px;
-    line-height: 1.5em;
+    line-height: 1.3em;
     border-top: solid 1px rgb(0, 0, 0);
     border-bottom: solid 1px rgb(0, 0, 0);
     padding: 60px;
@@ -209,7 +226,7 @@ ul {
 .monet-text {
     padding: 15px;
     background-color: white;
-    outline: 1px solid #9dffba;
+    outline: 1px solid #000000;
     outline-offset: -5px;
     font-size: 14px;
     width: fit-content;
@@ -230,7 +247,7 @@ ul {
 .Michelangelo-text {
     padding: 15px;
     background-color: white;
-    outline: 1px solid #9dffba;
+    outline: 1px solid #000000;
     outline-offset: -5px;
     font-size: 14px;
     width: fit-content;
@@ -281,13 +298,13 @@ ul {
 }
 
 .marquee span {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: " 'Cormorant Garamond', serif";
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: normal;
     padding: 0 100px;
-    color: #49ffa4;
-    border-top: 2px dashed #49ffa4;
-    border-bottom: 2px dashed #49ffa4;
+    color: #000000;
+    border-top: 1px dashed #000000;
+    border-bottom: 1px dashed #000000;
     white-space: nowrap;
 }
 
@@ -306,4 +323,18 @@ ul {
 
 footer {
     padding-bottom: 80px;
+}
+
+.myvideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    overflow-x: hidden;
+    object-position: center;
+    object-fit: cover;
 }
