@@ -23,6 +23,7 @@ body {
     font-weight: bolder;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 0;
 }
 
 .topbar {
@@ -89,11 +90,11 @@ a {
 
 a:hover {
     color: #000000;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.05em;
 }
 
 .topbar:hover {
-    letter-spacing: 0.5em;
+    font-weight: lighter;
 }
 
 .suntitle {
@@ -325,4 +326,5 @@ footer {
     overflow-x: hidden;
     object-position: center;
     object-fit: cover;
+    padding-bottom: 0;
 }
