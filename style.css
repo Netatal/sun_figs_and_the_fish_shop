@@ -1,19 +1,7 @@
 @font-face {
-    font-family: "Gilbert";
-    font-weight: 100;
-    src: url("fonts/Gilbert-Bold\ Preview5.woff") format("woff2");
-}
-
-@font-face {
     font-family: "Helvetica";
     font-weight: 100;
     src: url("fonts/Helvetica.woff") format("woff2");
-}
-
-@font-face {
-    font-family: "MeaCulpa-Regular";
-    font-weight: 100;
-    src: url("fonts/MeaCulpa-Regular.woff2") format("woff2");
 }
 
 body {
@@ -26,19 +14,20 @@ body {
 
 .opening {
     font-family: 'Cormorant Garamond', serif;
-    ;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5em;
     border-top: solid 1px rgb(0, 0, 0);
     border-bottom: solid 1px rgb(0, 0, 0);
     padding: 40px;
     font-weight: bolder;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .topbar {
     font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
     font-weight: bolder;
     position: fixed;
     width: 100%;
@@ -171,7 +160,6 @@ a:hover {
 
 .big {
     font-family: 'Cormorant Garamond', serif;
-    ;
     font-weight: normal;
     font-size: 50px;
     line-height: 1.3em;
