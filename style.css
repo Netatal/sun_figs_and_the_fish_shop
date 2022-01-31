@@ -6,8 +6,8 @@
 
 body {
     background-color: #d6d6d6;
-    font-family: "helvetica";
-    font-weight: normal;
+    font-family: "Assistant";
+    font-weight: 400;
     margin: auto;
     overflow-x: hidden;
 }
@@ -16,14 +16,17 @@ body {
     font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
     font-size: 25px;
-    line-height: 1.5em;
     border-top: solid 1px rgb(0, 0, 0);
     border-bottom: solid 1px rgb(0, 0, 0);
     padding: 40px;
-    font-weight: bolder;
+    font-weight: 600;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 0;
+    margin-top: 100px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 100px;
 }
 
 .topbar {
@@ -37,6 +40,7 @@ body {
     margin: 0;
     letter-spacing: 0.05em;
     padding-top: 5px;
+    color: black;
 }
 
 h1 {
@@ -51,40 +55,41 @@ h1 {
 }
 
 .header-title {
-    font-family: "helvetica";
-    font-weight: bolder;
-    font-size: 150px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 160px;
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.2em;
     vertical-align: top;
     margin: auto;
     padding-top: 100px;
-    padding-bottom: 200px;
     max-width: 80%;
     min-width: 40%;
     text-transform: uppercase;
+    font-weight: 300;
 }
 
-
-/**.sun_title {
-    padding-top: 100px;
-    border-bottom: solid 2px rgb(0, 0, 0);
+.sun_title {
+    text-align: center;
+    font-size: 240px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .figs_title {
-    padding-top: 100px;
-    border-bottom: solid 2px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 240px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .fish_title {
-    padding-top: 100px;
-    border-bottom: solid 2px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 240px;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 50px;
 }
-/**/
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     transition: all 500ms;
 }
 
@@ -105,8 +110,9 @@ a:hover {
     padding-top: 100px;
     display: block;
     width: 100%;
-    border-bottom: solid 5px black;
     margin: 0;
+    color: #000000;
+    text-shadow: 2px 2px #ffe600;
 }
 
 .fishshop_title {
@@ -117,46 +123,44 @@ a:hover {
     padding-top: 100px;
     display: block;
     width: 100%;
-    border-bottom: solid 5px black;
     margin: 0;
     padding-bottom: 50px;
+    color: #000000;
+    text-shadow: 2px 2px #2600ff;
 }
 
 .figstitle {
     font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
     font-size: 350px;
-    padding-left: 80px;
+    padding-left: 110px;
     padding-top: 100px;
     display: block;
     width: 100%;
-    border-bottom: solid 5px black;
     margin: 0;
     padding-bottom: 50px;
+    color: #000000;
+    text-shadow: 2px 2px #a30a9b;
 }
 
 .flexbox-1,
 .flexbox-2,
 .flexbox-3 {
     display: flex;
-    width: 100%;
-    margin: auto;
-    padding: 50px;
-    flex-wrap: wrap;
+    margin: 50px 100px 50px 100px;
 }
 
 .article-sun-1,
 .article-sun-2,
 .article-sun-3 {
-    max-width: 60%;
-    min-width: 30%;
     text-align: left;
     padding: 30px;
     padding-top: 0;
-    line-height: 1.6;
+    line-height: 1.8;
     font-weight: normal;
-    font-size: 24px;
-    border-right: solid 1px rgb(0, 0, 0);
+    font-size: 18px;
+    border-right: solid 1px #000000;
+    flex-basis: 70%;
 }
 
 .big {
@@ -164,26 +168,28 @@ a:hover {
     font-weight: normal;
     font-size: 50px;
     line-height: 1.3em;
-    border-top: solid 1px rgb(0, 0, 0);
-    border-bottom: solid 1px rgb(0, 0, 0);
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
     padding: 60px;
     font-weight: bolder;
+    background-color: #ffffff;
 }
 
 .facts-sun1,
 .facts-sun2,
 .facts-sun3 {
-    max-width: 15%;
-    text-align: left;
     padding: 30px;
     padding-top: 0;
     padding-left: 10px;
+    flex-basis: 30%;
+    text-align: right;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 24px;
     position: sticky;
     align-self: flex-start;
     top: 60px;
-    font-weight: lighter;
+    font-weight: 500;
+    color: #000000
 }
 
 ul {
@@ -287,14 +293,15 @@ ul {
 }
 
 .marquee span {
-    font-family: " 'Cormorant Garamond', serif";
+    font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 600;
     padding: 0 100px;
     color: #000000;
     border-top: 1px dashed #000000;
     border-bottom: 1px dashed #000000;
     white-space: nowrap;
+    background-color: white;
 }
 
 .marquee:hover .marquee-inner {
@@ -314,17 +321,15 @@ footer {
     padding-bottom: 80px;
 }
 
-.myvideo {
-    position: absolute;
-    top: 0;
-    left: 0;
+#myvideo {
     width: 100%;
-    height: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -100;
-    overflow-x: hidden;
-    object-position: center;
+    height: 120%;
     object-fit: cover;
-    padding-bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    box-sizing: border-box;
 }
