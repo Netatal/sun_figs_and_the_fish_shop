@@ -333,3 +333,10 @@ footer {
     z-index: -1;
     box-sizing: border-box;
 }
+
+.credit {
+    padding-top: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
