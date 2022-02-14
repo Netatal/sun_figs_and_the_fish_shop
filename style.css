@@ -71,7 +71,7 @@ h1 {
 .headerimg {
     height: 120%;
     width: 100%;
-    opacity: 0.2;
+    opacity: 0.1;
     object-fit: cover;
     position: absolute;
     z-index: -1;
