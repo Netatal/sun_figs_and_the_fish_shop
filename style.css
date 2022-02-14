@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
     font-family: "Helvetica";
     font-weight: 100;
     src: url("fonts/Helvetica.woff") format("woff2");
@@ -170,179 +170,165 @@ a:hover {
     flex-basis: 70%;
 }
 
-.big {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 1.3em;
-    border-top: solid 1px #000000;
-    border-bottom: solid 1px #000000;
-    padding: 60px;
-    font-weight: bolder;
-    background-color: #ffffff;
-}
-
-.facts-sun1,
-.facts-sun2,
-.facts-sun3 {
-    padding: 30px;
-    padding-top: 0;
-    padding-left: 10px;
-    flex-basis: 30%;
-    text-align: right;
-    line-height: 1.6;
-    font-size: 24px;
-    position: sticky;
-    align-self: flex-start;
-    top: 60px;
-    font-weight: 500;
-    color: #000000;
-    text-transform: uppercase;
-}
-
-ul {
-    list-style: none;
-}
-
-.Michelangelo img {
-    width: 100%;
-    width: 100%;
-    transition: opacity 500ms;
-}
-
-.monet {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.monetimg {
-    opacity: 30%;
-    max-width: 100%;
-    transition: opacity 500ms;
-}
-
-.monetimg:hover {
-    opacity: 100%;
-}
-
-.monet-text {
-    padding: 15px;
-    background-color: white;
-    outline: 1px solid #000000;
-    outline-offset: -5px;
-    font-size: 14px;
-    width: fit-content;
-    position: absolute;
-    text-align: left;
-    bottom: -25px;
-    right: 50px;
-    line-height: 1.5em;
-}
-
-.Michelangelo {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.Michelangelo-text {
-    padding: 15px;
-    background-color: white;
-    outline: 1px solid #000000;
-    outline-offset: -5px;
-    font-size: 14px;
-    width: fit-content;
-    position: absolute;
-    text-align: left;
-    bottom: -25px;
-    right: 50px;
-    line-height: 1.5em;
-}
-
-.michelangeloimg {
-    opacity: 30%;
-    width: 100%;
-    transition: opacity 500ms;
-}
-
-.michelangeloimg:hover {
-    opacity: 100%;
-}
-
-.marquee {
-    position: relative;
-    overflow: hidden;
-    --offset: 25px;
-    --move-initial: calc( -40% + var(--offset));
-    --move-final: calc( -20% + var(--offset));
-}
-
-.marquee+.marquee {
-    padding-top: -1px;
-}
-
-.marquee-figs {
-    position: relative;
-    overflow: hidden;
-    --offset: 25px;
-    --move-initial: calc( -20% + var(--offset));
-    --move-final: calc( -40% + var(--offset));
-}
-
-.marquee-inner {
-    width: fit-content;
-    display: flex;
-    position: relative;
-    transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee 5s linear infinite;
-}
-
-.marquee span {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
-    font-weight: 600;
-    padding: 0 100px;
-    color: #000000;
-    border-top: 1px dashed #000000;
-    border-bottom: 1px dashed #000000;
-    white-space: nowrap;
-    background-color: white;
-}
-
-.marquee:hover .marquee-inner {
-    animation-play-state: paused;
-}
-
-@keyframes marquee {
-    0% {
+@media only screen and (min-width: 601px) {
+    .article-sun-1,
+    .article-sun-2,
+    .article-sun-3 {
+        flex-basis: 90%;
+        font-size: 14px;
+    }
+    .big {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 1.3em;
+        border-top: solid 1px #000000;
+        border-bottom: solid 1px #000000;
+        padding: 60px;
+        font-weight: bolder;
+        background-color: #ffffff;
+    }
+    .facts-sun1,
+    .facts-sun2,
+    .facts-sun3 {
+        padding: 30px;
+        padding-top: 0;
+        padding-left: 10px;
+        flex-basis: 30%;
+        text-align: right;
+        line-height: 1.6;
+        font-size: 24px;
+        position: sticky;
+        align-self: flex-start;
+        top: 60px;
+        font-weight: 500;
+        color: #000000;
+        text-transform: uppercase;
+    }
+    ul {
+        list-style: none;
+    }
+    .Michelangelo img {
+        width: 100%;
+        width: 100%;
+        transition: opacity 500ms;
+    }
+    .monet {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .monetimg {
+        opacity: 30%;
+        max-width: 100%;
+        transition: opacity 500ms;
+    }
+    .monetimg:hover {
+        opacity: 100%;
+    }
+    .monet-text {
+        padding: 15px;
+        background-color: white;
+        outline: 1px solid #000000;
+        outline-offset: -5px;
+        font-size: 14px;
+        width: fit-content;
+        position: absolute;
+        text-align: left;
+        bottom: -25px;
+        right: 50px;
+        line-height: 1.5em;
+    }
+    .Michelangelo {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .Michelangelo-text {
+        padding: 15px;
+        background-color: white;
+        outline: 1px solid #000000;
+        outline-offset: -5px;
+        font-size: 14px;
+        width: fit-content;
+        position: absolute;
+        text-align: left;
+        bottom: -25px;
+        right: 50px;
+        line-height: 1.5em;
+    }
+    .michelangeloimg {
+        opacity: 30%;
+        width: 100%;
+        transition: opacity 500ms;
+    }
+    .michelangeloimg:hover {
+        opacity: 100%;
+    }
+    .marquee {
+        position: relative;
+        overflow: hidden;
+        --offset: 25px;
+        --move-initial: calc( -40% + var(--offset));
+        --move-final: calc( -20% + var(--offset));
+    }
+    .marquee+.marquee {
+        padding-top: -1px;
+    }
+    .marquee-figs {
+        position: relative;
+        overflow: hidden;
+        --offset: 25px;
+        --move-initial: calc( -20% + var(--offset));
+        --move-final: calc( -40% + var(--offset));
+    }
+    .marquee-inner {
+        width: fit-content;
+        display: flex;
+        position: relative;
         transform: translate3d(var(--move-initial), 0, 0);
+        animation: marquee 5s linear infinite;
     }
-    100% {
-        transform: translate3d(var(--move-final), 0, 0);
+    .marquee span {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 0 100px;
+        color: #000000;
+        border-top: 1px dashed #000000;
+        border-bottom: 1px dashed #000000;
+        white-space: nowrap;
+        background-color: white;
     }
-}
-
-footer {
-    padding-bottom: 80px;
-}
-
-#myvideo {
-    width: 100%;
-    height: 120%;
-    object-fit: cover;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    box-sizing: border-box;
-}
-
-.credit {
-    padding-top: 150px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-}
+    .marquee:hover .marquee-inner {
+        animation-play-state: paused;
+    }
+    @keyframes marquee {
+        0% {
+            transform: translate3d(var(--move-initial), 0, 0);
+        }
+        100% {
+            transform: translate3d(var(--move-final), 0, 0);
+        }
+    }
+    footer {
+        padding-bottom: 80px;
+    }
+    #myvideo {
+        width: 100%;
+        height: 120%;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        box-sizing: border-box;
+    }
+    .credit {
+        padding-top: 150px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    }
