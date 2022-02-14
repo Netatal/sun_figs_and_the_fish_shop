@@ -12,6 +12,13 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    background-image: url(images/backgroun.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .opening {
     font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
@@ -66,15 +73,6 @@ h1 {
     min-width: 40%;
     text-transform: uppercase;
     font-weight: 300;
-}
-
-.headerimg {
-    height: 120%;
-    width: 100%;
-    opacity: 0.1;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
 }
 
 .sun_title {
