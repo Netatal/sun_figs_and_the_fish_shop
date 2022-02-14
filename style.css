@@ -68,6 +68,15 @@ h1 {
     font-weight: 300;
 }
 
+.headerimg {
+    height: 120%;
+    width: 100%;
+    opacity: 0.1;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
 .sun_title {
     text-align: center;
     font-size: 240px;
